@@ -1,0 +1,108 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  background-color: #36937e;
+    /*background:linear-gradient(#A00,#A77,#333);*/
+  font-family: Raleway, sans-serif;
+  padding: 5px 5%;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+.main{
+  width:80%;
+    margin:20px 10%;
+  background-color:#FAFAFA;
+  box-shadow: 5px 10px 30px #555;
+}
+.section{
+  padding:5px 5%;
+}
+.descripcion{
+    background-color: #EEE;
+    
+}
+img{
+  width:100%;
+}
+.header{
+    width:100%;
+}
+.header h1{
+}
+.c50{width:50%;}
+.flt_lft{float:left;}
+.carrera{
+  background-size: cover;
+  height:300px;
+}
+.carrera div{
+    padding:3px 3%;
+    background-color: rgba(255,255,255,0.7);
+    /*text-align: center;*/
+}
+.past div{
+  background-color: rgba(33,33,33,1);
+  color:aliceblue;}
+.boton{
+  display:block;
+  clear:both;
+}
+/*fondos de carreras*/
+#Australia{background-image: url(../img/carreras/AustraliaGP.jpg);}
+#Bahrain{background-image:url(../img/carreras/BahrainGP.jpg);}
+#China{background-image:url(../img/carreras/ChinaGP.jpg);}
+#Azerbaijan{background-image:url(../img/carreras/AzerbaijanGP.jpg);}
+#Espana{background-image:url(../img/carreras/EspanaGP.jpg);}
+#Monaco{background-image:url(../img/carreras/MonacoGP.jpg);}
+#Canada{background-image:url(../img/carreras/CanadaGP.jpg);}
+#Francia{background-image:url(../img/carreras/FranciaGP.jpg);}
+#Austria{background-image:url(../img/carreras/AustriaGP.jpg);}
+#Inglaterra{background-image:url(../img/carreras/InglaterraGP.jpg);}
+#Alemania{background-image:url(../img/carreras/AlemaniaGP.jpg);}
+#Hungria{background-image:url(../img/carreras/HungriaGP.jpg);}
+#Belgica{background-image:url(../img/carreras/BelgicaGP.jpg);}
+#Italia{background-image:url(../img/carreras/ItaliaGP.jpg);}
+#Singapur{background-image:url(../img/carreras/SingapurGP.jpg);}
+#Rusia{background-image:url(../img/carreras/RusiaGP.jpg);}
+#Japon{background-image:url(../img/carreras/JaponGP.jpg);}
+#EEUU{background-image:url(../img/carreras/EEUUGP.jpg);}
+#Mexico{background-image:url(../img/carreras/MexicoGP.jpg);}
+#Brasil{background-image:url(../img/carreras/BrasilGP.jpg);}
+#AbuDhabi{background-image:url(../img/carreras/AbuDhabiGP.jpg);}
+
+.footer{
+  background-color: #333;
+  margin:0px;
+  width:80%;
+  color:rgb(240,240,240);
+  padding:40px 10%;
+  text-align: center;
+  font-size:0.75em;
+}
+.nav{
+  padding:5px 5%;
+  display:block;
+  margin:0 auto;
+  width:90%;}
+.menu{
+  padding:0;
+  list-style-type: none;
+  text-align: center;
+}
+.menu li{display:inline-block;margin:0 auto;}
+.c25{width:25%;}
+.piloto:hover, .equipo:hover{
+  background-color: #333;
+  color:#BBB;
+}
+.piloto div,.equipo div{padding:3%;}
+.piloto, .equipo{border-bottom:1px solid rgb(237, 237, 237);}

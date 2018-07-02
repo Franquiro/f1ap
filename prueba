@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <style>
+            .chico{
+                width:50%;
+                height:200px;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="chico"></div>
+    </body>
+</html>
